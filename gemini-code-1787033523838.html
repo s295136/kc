@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朱貴章 K.C. Chu | 物業暨資產管理顧問</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#0F172A',
+                            blue: '#1E3A8A',
+                            accent: '#0284C7',
+                            gold: '#D97706',
+                            light: '#F8FAFC'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"PingFang TC"', '"Microsoft JhengHei"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .bg-grid-pattern {
+            background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-sky-500 selection:text-white">
+
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-lg bg-gradient-to-tr from-sky-500 to-blue-600 flex items-center justify-center font-bold text-white text-xl tracking-wider shadow-lg shadow-sky-500/20">
+                    KC
+                </div>
+                <div>
+                    <div class="text-white font-bold text-lg tracking-wide">朱貴章 <span class="text-xs font-normal text-sky-400 font-mono">K.C. Chu</span></div>
+                    <div class="text-slate-400 text-xs tracking-wider">物業暨資產管理顧問</div>
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-sky-400 transition-colors">核心理念</a>
+                <a href="#experience" class="hover:text-sky-400 transition-colors">經歷與事蹟</a>
+                <a href="#services" class="hover:text-sky-400 transition-colors">顧問服務</a>
+                <a href="#clients" class="hover:text-sky-400 transition-colors">主要客戶</a>
+                <a href="#courses" class="hover:text-sky-400 transition-colors">教學培訓</a>
+                <a href="#publications" class="hover:text-sky-400 transition-colors">文獻著作</a>
+            </nav>
+
+            <a href="#contact" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs font-semibold bg-sky-500 hover:bg-sky-400 text-slate-950 transition-all shadow-md hover:shadow-sky-500/25">
+                聯絡顧問
+            </a>
+        </div>
+    </header>
+
+    <section class="relative pt-32 pb-20 md:pt-44 md:pb-32 bg-slate-900 text-white overflow-hidden">
+        <div class="absolute inset-0 bg-grid-pattern opacity-40"></div>
+        <div class="absolute -top-40 -right-40 w-96 h-96 bg-sky-500/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-8 space-y-6">
+                    <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-slate-800 border border-slate-700 text-sky-400 text-xs font-medium tracking-wide">
+                        <i data-lucide="shield-check" class="w-4 h-4"></i>
+                        <span>知識 • 文化 • 創新 • 永續</span>
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
+                        貫穿資產全生命週期<br>
+                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 via-teal-300 to-blue-500">
+                            創造建築永續傳世的「心」價值
+                        </span>
+                    </h1>
+                    
+                    <p class="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed font-light">
+                        統籌「世聯顧問」業務推展，結合外商五大行頂尖經驗與在地智慧，將物業使用需求與特色工程融入前期規劃，把營運管理轉化為資產增值藍圖。
+                    </p>
+
+                    <div class="pt-4 flex flex-wrap gap-4">
+                        <a href="#services" class="inline-flex items-center px-6 py-3 rounded-lg text-sm font-semibold bg-sky-500 hover:bg-sky-400 text-slate-950 transition-all shadow-lg shadow-sky-500/20">
+                            探索顧問服務
+                            <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+                        </a>
+                        <a href="#experience" class="inline-flex items-center px-6 py-3 rounded-lg text-sm font-semibold bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 transition-all">
+                            檢視專業資歷
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-4">
+                    <div class="bg-gradient-to-b from-slate-800/80 to-slate-900/90 border border-slate-700/80 rounded-2xl p-6 sm:p-8 backdrop-blur-xl shadow-2xl space-y-6">
+                        <div class="flex items-center space-x-4 border-b border-slate-700 pb-5">
+                            <div class="relative w-20 h-20 rounded-full overflow-hidden border-2 border-sky-400 shadow-lg shadow-sky-500/30 shrink-0 bg-slate-800 flex items-center justify-center">
+                                <img 
+                                    src="./kc_chu.jpg" 
+                                    alt="朱貴章 K.C. Chu" 
+                                    class="w-full h-full object-cover object-center"
+                                    onerror="this.style.display='none'; this.parentElement.classList.add('bg-sky-600'); this.parentElement.innerHTML='<span class=\'text-white font-bold text-xl\'>KC</span>';"
+                                />
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">朱貴章 <span class="text-sm font-normal text-slate-400">(K.C. Chu)</span></h3>
+                                <p class="text-sky-400 text-sm mt-0.5 font-medium">物業暨資產管理資深顧問</p>
+                                <p class="text-slate-400 text-xs mt-0.5">世聯顧問創辦人</p>
+                            </div>
+                        </div>
+                        
+                        <div class="space-y-4 text-sm text-slate-300">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center text-sky-400 border border-slate-700">
+                                    <i data-lucide="phone" class="w-4 h-4"></i>
+                                </div>
+                                <a href="tel:+886911313325" class="hover:text-white transition-colors">+886-911-313-325</a>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center text-sky-400 border border-slate-700">
+                                    <i data-lucide="mail" class="w-4 h-4"></i>
+                                </div>
+                                <a href="mailto:gucplatform@gmail.com" class="hover:text-white transition-colors">gucplatform@gmail.com</a>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center text-sky-400 border border-slate-700">
+                                    <i data-lucide="award" class="w-4 h-4"></i>
+                                </div>
+                                <span>40+ 年跨領域工程與資產管理資歷</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-2 border-t border-slate-700/70">
+                            <div class="text-xs text-slate-400 mb-2 font-medium">專業證照涵蓋：</div>
+                            <div class="flex flex-wrap gap-1.5 text-xs text-slate-300">
+                                <span class="bg-slate-800 px-2 py-1 rounded border border-slate-700">營業員</span>
+                                <span class="bg-slate-800 px-2 py-1 rounded border border-slate-700">管理服務人</span>
+                                <span class="bg-slate-800 px-2 py-1 rounded border border-slate-700">防火避難</span>
+                                <span class="bg-slate-800 px-2 py-1 rounded border border-slate-700">設備安全</span>
+                                <span class="bg-slate-800 px-2 py-1 rounded border border-slate-700">勞安衛生</span>
+                                <span class="bg-slate-800 px-2 py-1 rounded border border-slate-700">水電匠/室內配線</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-sky-600 font-semibold text-sm tracking-wider uppercase">Value & Track Record</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-2">卓越特殊事蹟與價值創造</h2>
+                <div class="w-12 h-1 bg-sky-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-8 hover:shadow-xl hover:border-sky-300 transition-all duration-300 relative group">
+                    <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="layers" class="w-6 h-6"></i>
+                    </div>
+                    <div class="text-sm font-bold text-sky-600 mb-1">2005 - 2006</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">E 化創新補助達 2,600 萬</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        分別獲得商業司 E 化體系服務創新運用補助款，主導建構「社區價值管理系統平台 (CVMS)」與「社區生活服務平台 (CLSP)」創新營運模式。
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-8 hover:shadow-xl hover:border-sky-300 transition-all duration-300 relative group">
+                    <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="trending-up" class="w-6 h-6"></i>
+                    </div>
+                    <div class="text-sm font-bold text-amber-600 mb-1">2008 (CBRE)</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">資產價值提升 2.5 ~ 3 倍</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        任職世邦魏理仕期間主導重大資產活化專案，成功協助「亞太經貿廣場 (ASIA Plaza)」與「經貿19大樓 (Rich 19)」完成資產溢價躍升。
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-8 hover:shadow-xl hover:border-sky-300 transition-all duration-300 relative group">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="repeat" class="w-6 h-6"></i>
+                    </div>
+                    <div class="text-sm font-bold text-emerald-600 mb-1">2010 (JLL)</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">全生命週期創新 / 收入翻倍</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        主持經濟部科研服務業創新計畫，以「建築生命週期」為核心推動前期規劃顧問服務，創造高附加知識價值，帶動業務營收成長達 2 倍。
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-14 bg-gradient-to-r from-slate-900 to-blue-950 text-white rounded-2xl p-8 sm:p-10 shadow-xl">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-4 border-b lg:border-b-0 lg:border-r border-slate-700 pb-6 lg:pb-0 lg:pr-8">
+                        <span class="text-sky-400 font-semibold text-xs tracking-wider uppercase">Consulting Mission</span>
+                        <h3 class="text-2xl font-bold mt-1 text-white">資產全生命週期一站式服務</h3>
+                        <p class="text-slate-300 text-sm mt-2">
+                            引領客戶跨越傳統物業框架，以營運視角重構空間體驗與資產長期效益。
+                        </p>
+                    </div>
+                    <div class="lg:col-span-8 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+                        <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                            <i data-lucide="compass" class="w-6 h-6 mx-auto text-sky-400 mb-2"></i>
+                            <div class="font-bold text-sm">開發招商</div>
+                            <div class="text-xs text-slate-400 mt-1">前期定位檢討</div>
+                        </div>
+                        <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                            <i data-lucide="drafting-compass" class="w-6 h-6 mx-auto text-sky-400 mb-2"></i>
+                            <div class="font-bold text-sm">規劃設計</div>
+                            <div class="text-xs text-slate-400 mt-1">結合使用需求</div>
+                        </div>
+                        <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                            <i data-lucide="hard-hat" class="w-6 h-6 mx-auto text-sky-400 mb-2"></i>
+                            <div class="font-bold text-sm">營建驗收</div>
+                            <div class="text-xs text-slate-400 mt-1">特色工法導入</div>
+                        </div>
+                        <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                            <i data-lucide="bar-chart-3" class="w-6 h-6 mx-auto text-sky-400 mb-2"></i>
+                            <div class="font-bold text-sm">營運活化</div>
+                            <div class="text-xs text-slate-400 mt-1">智慧永續傳世</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-slate-100 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-sky-600 font-semibold text-sm tracking-wider uppercase">Consulting Capabilities</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-2">顧問服務範疇與型態</h2>
+                <p class="text-slate-600 text-base mt-3">專家系統建置 • 跨界技術整合 • 賦能資產價值</p>
+                <div class="w-12 h-1 bg-sky-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-md border border-slate-200/80 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center mb-5">
+                            <i data-lucide="file-check" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">物業前期規劃與籌備</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            全程或階段性輔導。於規劃設計階段結合「使用需求」與「特色工程」，確立營運基準、檢核表、服務手冊與介面整合。
+                        </p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-100 flex items-center text-xs font-semibold text-sky-600">
+                        <i data-lucide="check" class="w-3.5 h-3.5 mr-1"></i> 前期規劃 / 前期籌備（全程/階段）
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-md border border-slate-200/80 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center mb-5">
+                            <i data-lucide="cpu" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">智慧營運 (Smart FM)</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            整合 <strong>BIM + FM + AIOT</strong> 智慧架構，導入預防式設施管理、智慧空間營運平台與設備安全監控系統。
+                        </p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-100 flex items-center text-xs font-semibold text-teal-600">
+                        <i data-lucide="check" class="w-3.5 h-3.5 mr-1"></i> 數位轉型 / 數據驅動維運
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-md border border-slate-200/80 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-5">
+                            <i data-lucide="leaf" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">綠色營運與 ESG</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            以 <strong>LEED、WELL、ESG</strong> 指標為基準，推動企業總部綠色維運、能源管理診斷與節能減碳最佳化方案。
+                        </p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-100 flex items-center text-xs font-semibold text-emerald-600">
+                        <i data-lucide="check" class="w-3.5 h-3.5 mr-1"></i> 物業綠色營運（機能/效能）
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-md border border-slate-200/80 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center mb-5">
+                            <i data-lucide="building-2" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">物業營運輔導與代管</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            建立完善物業管理制度、年度預算編列、關鍵績效指標 (KPI) 與服務水準協議 (SLA)，執行溫馨交屋與驗收點交。
+                        </p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-100 flex items-center text-xs font-semibold text-indigo-600">
+                        <i data-lucide="check" class="w-3.5 h-3.5 mr-1"></i> 營運輔導 / 組織輔導
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-md border border-slate-200/80 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center mb-5">
+                            <i data-lucide="sparkles" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">資產活化與風險管理</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            提供資產營運盡職調查 (DD)、空間機能健檢、招商運營定位升級與風險控制機制，達成保值增值成效。
+                        </p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-100 flex items-center text-xs font-semibold text-amber-600">
+                        <i data-lucide="check" class="w-3.5 h-3.5 mr-1"></i> 物業資產活化（前期/後期）
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-7 shadow-sm hover:shadow-md border border-slate-200/80 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center mb-5">
+                            <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">資產人才培訓與教育</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            從意識建立到專業技能深造，提供企業內部培訓、物業經理人專案講座，厚植團隊卓越服務心法與實務技能。
+                        </p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-100 flex items-center text-xs font-semibold text-rose-600">
+                        <i data-lucide="check" class="w-3.5 h-3.5 mr-1"></i> 資產人才培訓（意識/技能）
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-sky-600 font-semibold text-sm tracking-wider uppercase">Career Milestones</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-2">專業工作經歷</h2>
+                <p class="text-slate-600 text-base mt-3">跨足建築師事務所、營造團隊、大型物管與全球五大行外商資產顧問</p>
+                <div class="w-12 h-1 bg-sky-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="relative max-w-4xl mx-auto">
+                <div class="hidden sm:block absolute left-1/2 top-4 bottom-4 w-0.5 bg-slate-200 -translate-x-1/2"></div>
+
+                <div class="space-y-10">
+                    <div class="relative flex flex-col sm:flex-row items-center group">
+                        <div class="flex items-center justify-end w-full sm:w-1/2 sm:pr-8 text-left sm:text-right order-2 sm:order-1">
+                            <div class="bg-slate-50 border border-slate-200 p-5 rounded-xl shadow-sm w-full hover:border-sky-400 transition-colors">
+                                <span class="inline-block px-2.5 py-1 rounded bg-sky-100 text-sky-800 text-xs font-bold mb-2">2014 ~ 至今</span>
+                                <h3 class="text-base font-bold text-slate-900">世聯顧問 (Global Asset Consulting)</h3>
+                                <p class="text-sm font-semibold text-sky-700">創辦人 / 總顧問</p>
+                                <p class="text-xs text-slate-600 mt-2">統籌資產全生命週期顧問諮詢，整合智慧、綠色營運與專家系統。</p>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-sky-500 border-4 border-white shadow flex items-center justify-center text-white text-xs z-10 hidden sm:flex">
+                            <i data-lucide="briefcase" class="w-3.5 h-3.5"></i>
+                        </div>
+                        <div class="w-full sm:w-1/2 sm:pl-8 order-1 sm:order-2 mb-2 sm:mb-0"></div>
+                    </div>
+
+                    <div class="relative flex flex-col sm:flex-row items-center group">
+                        <div class="w-full sm:w-1/2 sm:pr-8 order-1 mb-2 sm:mb-0"></div>
+                        <div class="absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-blue-600 border-4 border-white shadow flex items-center justify-center text-white text-xs z-10 hidden sm:flex">
+                            <i data-lucide="building" class="w-3.5 h-3.5"></i>
+                        </div>
+                        <div class="flex items-center justify-start w-full sm:w-1/2 sm:pl-8 text-left order-2">
+                            <div class="bg-slate-50 border border-slate-200 p-5 rounded-xl shadow-sm w-full hover:border-blue-400 transition-colors">
+                                <span class="inline-block px-2.5 py-1 rounded bg-blue-100 text-blue-800 text-xs font-bold mb-2">2009 - 2012</span>
+                                <h3 class="text-base font-bold text-slate-900">仲量聯行 (JLL - Jones Lang LaSalle)</h3>
+                                <p class="text-sm font-semibold text-blue-700">物業暨資產管理部 資深協理</p>
+                                <p class="text-xs text-slate-600 mt-2">全球五大商仲行，推動建築全生命週期資產價值創新服務模式與前期規劃承接。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative flex flex-col sm:flex-row items-center group">
+                        <div class="flex items-center justify-end w-full sm:w-1/2 sm:pr-8 text-left sm:text-right order-2 sm:order-1">
+                            <div class="bg-slate-50 border border-slate-200 p-5 rounded-xl shadow-sm w-full hover:border-sky-400 transition-colors">
+                                <span class="inline-block px-2.5 py-1 rounded bg-slate-200 text-slate-800 text-xs font-bold mb-2">2007 - 2009</span>
+                                <h3 class="text-base font-bold text-slate-900">世邦魏理仕 (CBRE - CB Richard Ellis)</h3>
+                                <p class="text-sm font-semibold text-slate-700">物業設施與資產管理部 總監</p>
+                                <p class="text-xs text-slate-600 mt-2">全球龍頭外商，主導亞太經貿廣場及經貿19大樓等重大資產活化專案。</p>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-slate-700 border-4 border-white shadow flex items-center justify-center text-white text-xs z-10 hidden sm:flex">
+                            <i data-lucide="activity" class="w-3.5 h-3.5"></i>
+                        </div>
+                        <div class="w-full sm:w-1/2 sm:pl-8 order-1 sm:order-2 mb-2 sm:mb-0"></div>
+                    </div>
+
+                    <div class="relative flex flex-col sm:flex-row items-center group">
+                        <div class="w-full sm:w-1/2 sm:pr-8 order-1 mb-2 sm:mb-0"></div>
+                        <div class="absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-slate-700 border-4 border-white shadow flex items-center justify-center text-white text-xs z-10 hidden sm:flex">
+                            <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
+                        </div>
+                        <div class="flex items-center justify-start w-full sm:w-1/2 sm:pl-8 text-left order-2">
+                            <div class="bg-slate-50 border border-slate-200 p-5 rounded-xl shadow-sm w-full hover:border-slate-400 transition-colors">
+                                <span class="inline-block px-2.5 py-1 rounded bg-slate-200 text-slate-800 text-xs font-bold mb-2">2004 - 2007</span>
+                                <h3 class="text-base font-bold text-slate-900">東京都物業管理機構 (SINC)</h3>
+                                <p class="text-sm font-semibold text-slate-700">特別助理</p>
+                                <p class="text-xs text-slate-600 mt-2">規劃社區價值管理系統與商業司創新服務 E 化平台專案。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative flex flex-col sm:flex-row items-center group">
+                        <div class="flex items-center justify-end w-full sm:w-1/2 sm:pr-8 text-left sm:text-right order-2 sm:order-1">
+                            <div class="bg-slate-50 border border-slate-200 p-5 rounded-xl shadow-sm w-full space-y-3">
+                                <span class="inline-block px-2.5 py-1 rounded bg-slate-200 text-slate-800 text-xs font-bold">1982 - 2004 奠基期</span>
+                                <div class="text-xs space-y-2 text-slate-700">
+                                    <div><strong>怡盛集團千翔公寓大廈管理維護</strong> ｜ 專案處長 (2003 - 2004)</div>
+                                    <div><strong>潤泰集團潤泰營造工程</strong> ｜ 工程技術部襄理 (1995 - 2003)</div>
+                                    <div><strong>開立工程股份有限公司</strong> ｜ 專案處長 (1990 - 1995)</div>
+                                    <div><strong>和睦建築師事務所</strong> ｜ 設計部襄理 (1986 - 1990)</div>
+                                    <div><strong>榮電工程股份有限公司</strong> ｜ 助理工程師 (1982 - 1986)</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-slate-400 border-4 border-white shadow flex items-center justify-center text-white text-xs z-10 hidden sm:flex">
+                            <i data-lucide="wrench" class="w-3.5 h-3.5"></i>
+                        </div>
+                        <div class="w-full sm:w-1/2 sm:pl-8 order-1 sm:order-2 mb-2 sm:mb-0"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-sky-400 font-semibold text-sm tracking-wider uppercase">Trusted Partners</span>
+                <h2 class="text-3xl font-extrabold text-white mt-2">顧問服務主要客戶群</h2>
+                <p class="text-slate-400 text-base mt-3">深受國內知名建築師事務所、工程顧問與頂尖建設品牌之高度信賴</p>
+                <div class="w-12 h-1 bg-sky-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-slate-800/80 border border-slate-700 rounded-xl p-6">
+                    <div class="flex items-center space-x-3 mb-4 text-sky-400">
+                        <i data-lucide="compass" class="w-5 h-5"></i>
+                        <h3 class="font-bold text-white text-lg">工程顧問機構</h3>
+                    </div>
+                    <ul class="space-y-2.5 text-sm text-slate-300">
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-sky-500 mr-2"></i>中興工程顧問(股)公司</li>
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-sky-500 mr-2"></i>台聯工程顧問(股)公司</li>
+                    </ul>
+                </div>
+
+                <div class="bg-slate-800/80 border border-slate-700 rounded-xl p-6">
+                    <div class="flex items-center space-x-3 mb-4 text-teal-400">
+                        <i data-lucide="pen-tool" class="w-5 h-5"></i>
+                        <h3 class="font-bold text-white text-lg">頂尖建築師事務所</h3>
+                    </div>
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-slate-300">
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-teal-500 mr-1.5"></i>台北國際聯合建築師</li>
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-teal-500 mr-1.5"></i>恩典聯合建築師</li>
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-teal-500 mr-1.5"></i>蕭力仁建築師事務所</li>
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-teal-500 mr-1.5"></i>陳昆豐建築師事務所</li>
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-teal-500 mr-1.5"></i>張弘鼎建築師事務所</li>
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-teal-500 mr-1.5"></i>許伯元建築師事務所</li>
+                    </ul>
+                </div>
+
+                <div class="bg-slate-800/80 border border-slate-700 rounded-xl p-6">
+                    <div class="flex items-center space-x-3 mb-4 text-amber-400">
+                        <i data-lucide="building" class="w-5 h-5"></i>
+                        <h3 class="font-bold text-white text-lg">標竿建設集團</h3>
+                    </div>
+                    <ul class="grid grid-cols-2 gap-2 text-sm text-slate-300">
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-500 mr-1.5"></i>冠德建設</li>
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-500 mr-1.5"></i>將捷建設</li>
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-500 mr-1.5"></i>遠雄建設</li>
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-500 mr-1.5"></i>欣翰建設</li>
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-500 mr-1.5"></i>耕薪建築</li>
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-500 mr-1.5"></i>若樸建設</li>
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-500 mr-1.5"></i>裕隆建設</li>
+                        <li class="flex items-center"><i data-lucide="chevron-right" class="w-4 h-4 text-amber-500 mr-1.5"></i>麗晨建設</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-sky-600 font-semibold text-sm tracking-wider uppercase">Knowledge Transfer</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-2">學界講授與專業培訓體系</h2>
+                <p class="text-slate-600 text-base mt-3">傳承 36 堂涵蓋生命週期、營運管理、綠色節能與卓越服務之系統化課程</p>
+                <div class="w-12 h-1 bg-sky-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="mb-12 bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm">
+                <h3 class="text-lg font-bold text-slate-900 mb-4 flex items-center">
+                    <i data-lucide="landmark" class="w-5 h-5 text-sky-600 mr-2"></i>
+                    曾任業界講師與授課機構
+                </h3>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-sm text-slate-700 font-medium">
+                    <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">國立台灣科技大學 建築系</div>
+                    <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">國立雲林科技大學 營建系</div>
+                    <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">台肥公司土地開發處</div>
+                    <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">仲量聯行房地產學院</div>
+                    <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">台灣物業學會培訓中心</div>
+                    <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">營建署公寓大廈管理講習</div>
+                    <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">勞動部銀髮人力資源中心</div>
+                    <div class="bg-slate-50 p-3 rounded-lg border border-slate-100">內政部包租代管證照班</div>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-lg font-bold text-slate-900 mb-6 flex items-center">
+                    <i data-lucide="book-open-check" class="w-5 h-5 text-sky-600 mr-2"></i>
+                    核心主題培訓課程目錄 (36 門精選)
+                </h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-xs">
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">01</span>
+                        <div><div class="font-bold text-slate-800">不同凡響的服務業</div><div class="text-slate-500">「物業暨資產管理」本質剖析</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">02</span>
+                        <div><div class="font-bold text-slate-800">人際關係與溝通技巧實務</div><div class="text-slate-500">跨部門與客戶互動心法</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">03</span>
+                        <div><div class="font-bold text-slate-800">客訴處理技巧與應變</div><div class="text-slate-500">危機化解與客戶信任重塑</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">04</span>
+                        <div><div class="font-bold text-slate-800">團隊合作與領導藝術</div><div class="text-slate-500">高效物管團隊組織動員</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">05</span>
+                        <div><div class="font-bold text-slate-800">潛能開發技巧</div><div class="text-slate-500">激發專業人員主動服務思維</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">06</span>
+                        <div><div class="font-bold text-slate-800">跨界服務整合技巧</div><div class="text-slate-500">多業種資源銜接與導入</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">07</span>
+                        <div><div class="font-bold text-slate-800">「新服務。心價值」</div><div class="text-slate-500">超越常規的貼心服務設計</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">08</span>
+                        <div><div class="font-bold text-slate-800">團隊領導與服務意識</div><div class="text-slate-500">由內而外的團隊文化建立</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">09</span>
+                        <div><div class="font-bold text-slate-800">物業全生命週期策劃與實施</div><div class="text-slate-500">從規劃、營造到營運串聯</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">10</span>
+                        <div><div class="font-bold text-slate-800">資產管理營運診斷技巧 (DD)</div><div class="text-slate-500">盡職調查與價值評估實務</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">11</span>
+                        <div><div class="font-bold text-slate-800">物業籌備期服務管理實務</div><div class="text-slate-500">開案前 SOP 與制度建置</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">12</span>
+                        <div><div class="font-bold text-slate-800">預防式設施維護管理實務</div><div class="text-slate-500">延長機電與建築設備壽期</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">13</span>
+                        <div><div class="font-bold text-slate-800">物業營運代管作業實務</div><div class="text-slate-500">資產全方位託管管理流程</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">14</span>
+                        <div><div class="font-bold text-slate-800">物業風險管理與控制</div><div class="text-slate-500">災害防護、公關與法律風險</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">15</span>
+                        <div><div class="font-bold text-slate-800">溫馨交屋與入住服務</div><div class="text-slate-500">細膩交屋手續與迎賓體驗</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">16</span>
+                        <div><div class="font-bold text-slate-800">企業總部綠色營運管理實務</div><div class="text-slate-500">ESG 與低碳營運實踐</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">17</span>
+                        <div><div class="font-bold text-slate-800">如何做好裝修管理與服務</div><div class="text-slate-500">施工控管與鄰里關係協調</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">18</span>
+                        <div><div class="font-bold text-slate-800">卓越物業服務人工作心法</div><div class="text-slate-500">專業態度的深度淬鍊</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">19</span>
+                        <div><div class="font-bold text-slate-800">區權大會的幸福與感動</div><div class="text-slate-500">議事籌劃與共識凝聚策略</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">20</span>
+                        <div><div class="font-bold text-slate-800">租屋點交與點回技巧實務</div><div class="text-slate-500">權益保障與查驗要點</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">21</span>
+                        <div><div class="font-bold text-slate-800">社區公設點交實務</div><div class="text-slate-500">設備查核與驗收標準法</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">22</span>
+                        <div><div class="font-bold text-slate-800">全球5大行資產營運創新優勢</div><div class="text-slate-500">國際標竿物管實務移轉</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">23</span>
+                        <div><div class="font-bold text-slate-800">社區管理組織營運輔導</div><div class="text-slate-500">管委會運作與治理優化</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">24</span>
+                        <div><div class="font-bold text-slate-800">物業營運企劃製作技巧</div><div class="text-slate-500">投標企劃與提案架構解析</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">25</span>
+                        <div><div class="font-bold text-slate-800">「老服務、心價值」</div><div class="text-slate-500">舊社區更新與服務重塑</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">26</span>
+                        <div><div class="font-bold text-slate-800">物業特色工法案例分享</div><div class="text-slate-500">好用、實用的建築工法設計</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">27</span>
+                        <div><div class="font-bold text-slate-800">卓越客服 MISAWA HOME 挑戰</div><div class="text-slate-500">日本頂級住宅服務借鑑</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">28</span>
+                        <div><div class="font-bold text-slate-800">認識社區說明會-有故事的家園</div><div class="text-slate-500">營造社區文化與認同感</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">29</span>
+                        <div><div class="font-bold text-slate-800">住戶居家使用機能健檢服務</div><div class="text-slate-500">空間健檢與加值服務落地</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">30</span>
+                        <div><div class="font-bold text-slate-800">物業營運增值暨感動服務實務</div><div class="text-slate-500">創造驚喜與情感連結</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">31</span>
+                        <div><div class="font-bold text-slate-800">物業營運節能減碳101小妙方</div><div class="text-slate-500">低成本高回報節能技巧</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">32</span>
+                        <div><div class="font-bold text-slate-800">裝修管理實施與控制技巧</div><div class="text-slate-500">嚴謹進場規範與品質把關</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">33</span>
+                        <div><div class="font-bold text-slate-800">物業年度預算編列作業要點</div><div class="text-slate-500">財務精算與修繕基金規劃</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">34</span>
+                        <div><div class="font-bold text-slate-800">物業關鍵績效指標(KPI)與(SLA)</div><div class="text-slate-500">量化服務水準與品質考核</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">35</span>
+                        <div><div class="font-bold text-slate-800">物業年度工作計畫作業要點</div><div class="text-slate-500">結構化年度目標與執行綱領</div></div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-xl border border-slate-200/70 hover:border-sky-400 transition-colors flex items-start space-x-3">
+                        <span class="w-6 h-6 rounded bg-sky-100 text-sky-800 font-bold flex items-center justify-center shrink-0">36</span>
+                        <div><div class="font-bold text-slate-800">物業增值保值服務</div><div class="text-slate-500">永續守護不動產市場行情</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-sky-600 font-semibold text-sm tracking-wider uppercase">Thought Leadership</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-2">文獻與專題著作</h2>
+                <p class="text-slate-600 text-base mt-3">深耕物業管理學術與實務論述，持續引領產業前瞻思維</p>
+                <div class="w-12 h-1 bg-sky-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="max-w-4xl mx-auto space-y-4">
+                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 flex items-start space-x-4">
+                    <div class="w-8 h-8 rounded-lg bg-sky-100 text-sky-700 flex items-center justify-center font-bold text-sm shrink-0">1</div>
+                    <div class="text-sm">
+                        <div class="font-bold text-slate-900">《捷運聯合開發案物業管理探討》</div>
+                        <div class="text-slate-600 mt-0.5">捷運技術半年刊第 36 期，pp.225-238，民國96年 (2007)</div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 flex items-start space-x-4">
+                    <div class="w-8 h-8 rounded-lg bg-sky-100 text-sky-700 flex items-center justify-center font-bold text-sm shrink-0">2</div>
+                    <div class="text-sm">
+                        <div class="font-bold text-slate-900">《讀者容留量體調查與分析》</div>
+                        <div class="text-slate-600 mt-0.5">新北市立圖書館新總館專題報告，2015</div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 flex items-start space-x-4">
+                    <div class="w-8 h-8 rounded-lg bg-sky-100 text-sky-700 flex items-center justify-center font-bold text-sm shrink-0">3</div>
+                    <div class="text-sm">
+                        <div class="font-bold text-slate-900">《以「建築生命週期」為核心之資產價值創新服務模式》</div>
+                        <div class="text-slate-600 mt-0.5">經濟部科技研究發展專案成果，2011</div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 flex items-start space-x-4">
+                    <div class="w-8 h-8 rounded-lg bg-sky-100 text-sky-700 flex items-center justify-center font-bold text-sm shrink-0">4</div>
+                    <div class="text-sm">
+                        <div class="font-bold text-slate-900">《勤美璞真住宅大樓新建工程物業管理規劃技術服務工作-物業營運需求檢討書》</div>
+                        <div class="text-slate-600 mt-0.5">頂級豪宅前期規劃檢討專案，2009</div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 flex items-start space-x-4">
+                    <div class="w-8 h-8 rounded-lg bg-sky-100 text-sky-700 flex items-center justify-center font-bold text-sm shrink-0">5</div>
+                    <div class="text-sm">
+                        <div class="font-bold text-slate-900">《用「幸福感動」打造的將捷國際商業大樓》</div>
+                        <div class="text-slate-600 mt-0.5">台灣物業雜誌，創刊號，pp.86-90，2014</div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 flex items-start space-x-4">
+                    <div class="w-8 h-8 rounded-lg bg-sky-100 text-sky-700 flex items-center justify-center font-bold text-sm shrink-0">6</div>
+                    <div class="text-sm">
+                        <div class="font-bold text-slate-900">《淺談物業前期規劃之專業與價值》</div>
+                        <div class="text-slate-600 mt-0.5">台灣物業管理學會第九屆物業管理成果發表會，2015</div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 flex items-start space-x-4">
+                    <div class="w-8 h-8 rounded-lg bg-sky-100 text-sky-700 flex items-center justify-center font-bold text-sm shrink-0">7</div>
+                    <div class="text-sm">
+                        <div class="font-bold text-slate-900">《「物業暨資產管理」解析外商的營運關鍵密碼》</div>
+                        <div class="text-slate-600 mt-0.5">台灣物業雜誌，第 6 期，pp.96-101，2015</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-slate-950 text-slate-400 py-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-blue-900/60 to-slate-900 border border-slate-800 rounded-3xl p-8 sm:p-12 mb-12 text-center relative overflow-hidden">
+                <div class="relative z-10 max-w-2xl mx-auto">
+                    <h3 class="text-2xl sm:text-3xl font-extrabold text-white mb-4">攜手世聯顧問，創造資產極致價值</h3>
+                    <p class="text-slate-300 text-sm sm:text-base mb-8">
+                        無論是前期物業規劃、綠色與智慧設施營運，抑或企業專題內訓，歡迎隨時與我們接洽諮詢。
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <a href="tel:+886911313325" class="inline-flex items-center px-6 py-3 rounded-full text-sm font-bold bg-sky-500 hover:bg-sky-400 text-slate-950 transition-all shadow-lg">
+                            <i data-lucide="phone-call" class="w-4 h-4 mr-2"></i>
+                            0911-313-325
+                        </a>
+                        <a href="mailto:gucplatform@gmail.com" class="inline-flex items-center px-6 py-3 rounded-full text-sm font-bold bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 transition-all">
+                            <i data-lucide="mail" class="w-4 h-4 mr-2"></i>
+                            gucplatform@gmail.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 pt-6 border-t border-slate-900">
+                <div>© 2026 朱貴章 (K.C. Chu) 物業暨資產管理顧問. 知識。文化。創新。永續.</div>
+                <div class="mt-2 sm:mt-0">世聯顧問 Global Asset Consulting</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
